@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPKDotNetCore.ConsoleApp", "PPKDotNetCore.ConsoleApp\PPKDotNetCore.ConsoleApp.csproj", "{EA378F1D-9113-411C-A580-815AAD1633BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{A9041339-611F-4A36-BBB9-67A063627DD4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPKDotNetCore.RestApi", "PPKDotNetCore.RestApi\PPKDotNetCore.RestApi.csproj", "{D396A6BF-A33E-4F51-B1C4-A436ABB633C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPKDotNetCore.BlazorWasmAppV4", "PPKDotNetCore.BlazorWasmAppV4\PPKDotNetCore.BlazorWasmAppV4.csproj", "{34BE9083-4127-4D62-AC50-0A711AA4B4F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPKDotNetCore.BlazorWasmAppV5", "PPKDotNetCore.BlazorWasmAppV5\PPKDotNetCore.BlazorWasmAppV5.csproj", "{24142887-9AC2-4D51-BF03-53F1441C0D49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPKDotNetCore.Shared", "PPKDotNetCore.Shared\PPKDotNetCore.Shared.csproj", "{778A60D9-A781-4E54-9FB2-7650FD8425DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA378F1D-9113-411C-A580-815AAD1633BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA378F1D-9113-411C-A580-815AAD1633BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA378F1D-9113-411C-A580-815AAD1633BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA378F1D-9113-411C-A580-815AAD1633BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D396A6BF-A33E-4F51-B1C4-A436ABB633C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D396A6BF-A33E-4F51-B1C4-A436ABB633C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D396A6BF-A33E-4F51-B1C4-A436ABB633C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D396A6BF-A33E-4F51-B1C4-A436ABB633C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BE9083-4127-4D62-AC50-0A711AA4B4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BE9083-4127-4D62-AC50-0A711AA4B4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BE9083-4127-4D62-AC50-0A711AA4B4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BE9083-4127-4D62-AC50-0A711AA4B4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24142887-9AC2-4D51-BF03-53F1441C0D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24142887-9AC2-4D51-BF03-53F1441C0D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24142887-9AC2-4D51-BF03-53F1441C0D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24142887-9AC2-4D51-BF03-53F1441C0D49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{778A60D9-A781-4E54-9FB2-7650FD8425DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778A60D9-A781-4E54-9FB2-7650FD8425DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778A60D9-A781-4E54-9FB2-7650FD8425DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778A60D9-A781-4E54-9FB2-7650FD8425DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2E57D11-AF2F-41FE-AF18-8FB98CE60C7F}
+	EndGlobalSection
+EndGlobal
