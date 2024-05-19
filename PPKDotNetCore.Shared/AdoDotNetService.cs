@@ -29,7 +29,7 @@ namespace PPKDotNetCore.Shared
                     cmd.Parameters.AddWithValue(item.Name, item.Value);
                 }*/
                 //cmd.Parameters.AddRange(parameters.Select(item => new SqlParameter(item.Name, item.Value)).ToArray());
-                Array parametersArrays = parameters.Select(item => new SqlParameter(item.Name, item.Value)).ToArray();
+                SqlParameter[] parametersArrays = parameters.Select(item => new SqlParameter(item.Name, item.Value)).ToArray();
                 cmd.Parameters.AddRange(parametersArrays);
             }
             SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);
@@ -63,15 +63,27 @@ namespace PPKDotNetCore.Shared
 
             connection.Close();
             string json = JsonConvert.SerializeObject(dt);
-            var item = JsonConvert.DeserializeObject<M>(json)!;
-            return item;
+            var item = JsonConvert.DeserializeObject<List<M>>(json)!;
+            return item[0];
         }
+        public int Execute<T>(string query, params AdoDotNetParameter[]? parameters)
+        {
+            SqlConnection sqlConnection = new SqlConnection(_connectionString);
+            sqlConnection.Open();
+            SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
+            if (parameters is not null && parameters?.Length > 0)
+            {
+                sqlCommand.Parameters.AddRange(parameters.Select(item => new SqlParameter(item.Name, item.Value)).ToArray());
+            }
+            int result = sqlCommand.ExecuteNonQuery();
+            sqlConnection.Close();
 
+            return result;
+        }
         public class AdoDotNetParameter
         {
             public string Name { get; set; }
             public string Value { get; set; }
-
             public AdoDotNetParameter(string name, string value)
             {
                 Name = name;
