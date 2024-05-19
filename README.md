@@ -13,6 +13,7 @@ C# => Db
 PPKDotNetCore
 >PPKDotNetCore.ConsoleApp
 >PPKDotNetCore.RestApi
+>PPKDotNetCore.RestApiWithNLayer
 
 2024-04-09 Console App /
 2024-04-10 Ado.Net CRUD /
