@@ -52,7 +52,7 @@ namespace PPKDotNetCore.RestApi.Controllers
                                    ,@BlogAuthor
                                    ,@BlogContent)";
 
-            var result = _adoDotNetService.Execute<BlogModel>(query, 
+            var result = _adoDotNetService.Execute<BlogModel>(query,
                 new AdoDotNetParameter("@BlogId", blog.BlogId.ToString()),
                 new AdoDotNetParameter("@BlogTitle", blog.BlogTitle!),
                 new AdoDotNetParameter("@BlogAuthor", blog.BlogAuthor!),
@@ -121,7 +121,7 @@ namespace PPKDotNetCore.RestApi.Controllers
                                SET {conditons}
                              WHERE BlogId=@BlogId";
             int result = 0;
-            
+
             if (conditionCount == 3)
             {
                 result = _adoDotNetService.Execute<BlogModel>(
