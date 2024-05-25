@@ -18,6 +18,7 @@ PPKDotNetCore
 >PPKDotNetCore.WinFormApp
 >PPKDotNetCore.ConsoleAppRestClientExample
 >PPKDotNetCore.ConsoleAppRefitClientExample
+>PPKDotNetCore.PizzaApi
 
 2024-04-09 Console App /
 2024-04-10 Ado.Net CRUD /
