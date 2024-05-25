@@ -24,7 +24,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPKDotNetCore.ConsoleAppHtt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPKDotNetCore.ConsoleAppHttpClientExample", "PPKDotNetCore.ConsoleAppHttpClientExample\PPKDotNetCore.ConsoleAppHttpClientExample.csproj", "{6B16751C-270D-4F4A-ABD8-12D035E2B865}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPKDotNetCore.WinFormsApp", "PPKDotNetCore.WinFormsApp\PPKDotNetCore.WinFormsApp.csproj", "{DC32CEEE-7B2B-4B0B-89AF-BF2F126F2772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPKDotNetCore.WinFormsApp", "PPKDotNetCore.WinFormsApp\PPKDotNetCore.WinFormsApp.csproj", "{DC32CEEE-7B2B-4B0B-89AF-BF2F126F2772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPKDotNetCore.ConsoleAppRestClientExample", "PPKDotNetCore.ConsoleAppRestClientExample\PPKDotNetCore.ConsoleAppRestClientExample.csproj", "{94A5A73F-1B83-4204-B00A-37A09DF65B6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +70,10 @@ Global
 		{DC32CEEE-7B2B-4B0B-89AF-BF2F126F2772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC32CEEE-7B2B-4B0B-89AF-BF2F126F2772}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC32CEEE-7B2B-4B0B-89AF-BF2F126F2772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A5A73F-1B83-4204-B00A-37A09DF65B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A5A73F-1B83-4204-B00A-37A09DF65B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A5A73F-1B83-4204-B00A-37A09DF65B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A5A73F-1B83-4204-B00A-37A09DF65B6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
