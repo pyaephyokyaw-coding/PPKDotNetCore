@@ -26,11 +26,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPKDotNetCore.ConsoleAppHtt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPKDotNetCore.WinFormsApp", "PPKDotNetCore.WinFormsApp\PPKDotNetCore.WinFormsApp.csproj", "{DC32CEEE-7B2B-4B0B-89AF-BF2F126F2772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPKDotNetCore.ConsoleAppRestClientExample", "PPKDotNetCore.ConsoleAppRestClientExample\PPKDotNetCore.ConsoleAppRestClientExample.csproj", "{94A5A73F-1B83-4204-B00A-37A09DF65B6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPKDotNetCore.ConsoleAppRestClientExample", "PPKDotNetCore.ConsoleAppRestClientExample\PPKDotNetCore.ConsoleAppRestClientExample.csproj", "{94A5A73F-1B83-4204-B00A-37A09DF65B6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPKDotNetCore.ConsoleAppRefitExample", "PPKDotNetCore.ConsoleAppRefitExample\PPKDotNetCore.ConsoleAppRefitExample.csproj", "{3B018CCD-FEBE-4A88-AFF2-7DD0EB65D586}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPKDotNetCore.ConsoleAppRefitExample", "PPKDotNetCore.ConsoleAppRefitExample\PPKDotNetCore.ConsoleAppRefitExample.csproj", "{3B018CCD-FEBE-4A88-AFF2-7DD0EB65D586}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPKDotNetCore.PizzaApi", "PPKDotNetCore.PizzaApi\PPKDotNetCore.PizzaApi.csproj", "{C4720A68-D4FE-4454-8F06-DC822F9407D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPKDotNetCore.PizzaApi", "PPKDotNetCore.PizzaApi\PPKDotNetCore.PizzaApi.csproj", "{C4720A68-D4FE-4454-8F06-DC822F9407D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPKDotNetCore.WinFormAppSqlInjection", "PPKDotNetCore.WinFormAppSqlInjection\PPKDotNetCore.WinFormAppSqlInjection.csproj", "{05F1CB77-34D8-4690-920D-9CD33F221312}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +88,10 @@ Global
 		{C4720A68-D4FE-4454-8F06-DC822F9407D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4720A68-D4FE-4454-8F06-DC822F9407D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4720A68-D4FE-4454-8F06-DC822F9407D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F1CB77-34D8-4690-920D-9CD33F221312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F1CB77-34D8-4690-920D-9CD33F221312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F1CB77-34D8-4690-920D-9CD33F221312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F1CB77-34D8-4690-920D-9CD33F221312}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

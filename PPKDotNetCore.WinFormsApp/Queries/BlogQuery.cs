@@ -16,5 +16,22 @@ namespace PPKDotNetCore.WinFormsApp.Queries
                                    (@BlogTitle
                                    ,@BlogAuthor
                                    ,@BlogContent)";
+
+        public static string BlogUpdate { get; } =
+            @"UPDATE [dbo].[Tbl_Blog]
+               SET [BlogTitle] = @BlogTitle
+                  ,[BlogAuthor] = @BlogAuthor 
+                  ,[BlogContent] = @BlogContent
+             WHERE BlogId = @BlogId";
+
+        public static string BlogLists { get; } =
+            @"SELECT [BlogId]
+              ,[BlogTitle]
+              ,[BlogAuthor]
+              ,[BlogContent]
+          FROM [MYTDotNetCore].[dbo].[Tbl_Blog]";
+
+        public static string BlogDelete { get; } =
+            @"DELETE FROM [dbo].[Tbl_Blog] WHERE BlogId = @BlogId";
     }
 }
